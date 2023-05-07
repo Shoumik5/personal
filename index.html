@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shoumik Biswas</title>
+    <style>
+       .banner{
+      	margin-top: 150px;
+       }
+        .about{
+        	margin-top: 50px;
+        }
+        .col-md-4{
+        	margin-top: 40px;
+        }
+        .navbar-brand img{
+        	width: 50px;
+        	border-radius: 50px;
+        	border: 1px solid blue;
+        }
+        .nav-link{
+        	text-align: center;
+        	color: black;
+        	cursor: pointer;
+        	text-transform: uppercase;
+        }
+       #social i{
+       	padding: 20px;
+       	border-radius: 100px;
+       	border: 2px solid black;
+       }
+        	
+     </style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <!-- Banner section -->
+    <section class="banner">
+        <div class="container-fluid">
+            <div class="row">
+            	  <div class="col-md-6">
+                    <img src="banner.jpg" alt="Banner" class="shadow img-fluid mt-3" style="border-radius: 20px">
+                </div>
+                <div class="col-md-6 mt-3">
+                    <h1>Welcome To My Website</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="shadow btn btn-primary">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- About section -->
+  <section class="about" id="about">
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>About Me</h1>
+            </div>
+           </div>
+            <div class="row">
+                <div class="col-md-6">
+                   <img src="banner.jpg" alt="About" class="shadow img-fluid mt-3" style="border-radius: 20px;">
+                </div>
+                <div class="col-md-6">
+                    <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <ul>
+                     <li><i class="fa fa-graduation-cap"></i>Bangladesh Full Stack Developer</li>
+                      <li><i class="fa fa-briefcase"></i> 5 years of experience in web development</li>
+                      <li><i class="fa fa-map-marker"></i> Live in Bangladesh</li>
+                  </ul>
+                  <div>
+                   	<p>
+                  		<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Details 
+                   		</button>
+                     	</p>
+                     	<div class="collapse" id="collapseExample">
+                   		<div class="col-12">
+              			  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                   </div>
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
+ </section>
+
+<!-- Portfolio section -->
+<section class="portfolio mt-5" id="portfolio">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+              <h1>Portfolio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="https://picsum.photos/300/210" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Project 1</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                       <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                   <img src="https://picsum.photos/300/215" class="card-img-top" alt="Project 2">
+                     <div class="card-body">
+                       <h5 class="card-title">Project 2</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                       <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                   <img src="https://picsum.photos/300/220" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                       <h5 class="card-title">Project 3</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                       <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact section -->
+<section class="contact mt-5" id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6 mt-4">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-map-marker"></i> Magura || Khulna ||  Bangladesh</li>
+                </ul>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                      <iframe class="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234231.43057103673!2d89.4451521!3d23.46529385000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe55c9b76dc93f%3A0xcab06b14c22acb00!2z4Kau4Ka-4KaX4KeB4Kaw4Ka-IOCmnOCnh-CmsuCmvg!5e0!3m2!1sbn!2sbd!4v1683375110104!5m2!1sbn!2sbd" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <style>
+                        .mapouter{position:relative;text-align:right;height:300px;width:100%;}
+                        .gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer section -->
+<footer class="mt-5 bg-light">
+    <div class="container-fluid">
+        <div class="row text-center">
+        	<div>
+          	<h5 class="mt-3">Shoumik.</h5>
+          </div>
+            <div class="col-md-6 d-block m-auto">
+               <p>&copy; Shoumik Biswas 2023</p>
+            </div>
+            <div>
+            	<ul id="social">
+              	<i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+              	<i class="fa fa-github"></i>
+              	<i class="fa fa-linkedin"></i>
+            	</ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Bootstrap Js link-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
